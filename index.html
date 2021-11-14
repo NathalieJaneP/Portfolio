@@ -1,0 +1,204 @@
+<!doctype html>
+<html class="no-js" lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nathalie Persson Enriquez - Frontend Developer - Portfolio
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Nathalie Persson Enriquez Portfolio: Frontend Developer with skills of HTML CSS JavaScript. Student at Medieinstituet.">
+  <meta name="robots" content="all" />
+  <link rel="icon"  href="img/n-logo.svg">
+
+  <meta property="og:title" content="Nathalie Persson Enriquez: Frontend Developer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nathalienriquez.com/" />
+  <meta property="og:description"
+    content="Nathalie Persson Enriquez is a creative developer based in Switzerland Verbier - Great experience with HTML, CSS, JavaScript">
+  <meta property="og:image" content="">  
+  
+  <!--FONT MONSTERRAT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="scss/normalize.css">
+  <link rel="stylesheet" href="scss/style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+      <label for="nav__checkbox" class="nav__toggle">
+        <span class="menu"><i class="fas fa-bars"></i></span>
+        <span class="close"><i class="fas fa-times"></i></span>
+      </label>
+
+      <h2 class="visually-hidden">Navigation bar</h2>
+      <ul class="nav__menu">
+        <li class="logo"><img src="img/n-logo.svg" alt="N-logo"></li>
+        <li><a href="#projects" aria-label="go to projects">Projects</a></li>
+        <li><a href="#skills" aria-label="go to skills">Skills</a></li>
+        <li><a href="#about" aria-label="go to about">About</a></li>
+        <li><a href="#contact" aria-label="go to contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="row__full" id="hero">   
+        <p id="intro">
+          <span id="first-word">Hi there,</span><br>
+          I'm a Frontend Developer Student at Medieinstituet.<br>
+          Eager to learn, tech-savvy, creative and a teamplayer.
+        </p>
+        <h1>Nathalie Persson Enriquez</h1>
+      </div>
+    </div>
+
+    <h2 id="projects">Projects.</h2>
+    <div class="row">
+      <div class="row__img">
+        <a href="https://www.spotify.com/" target="_blank">
+          <img src="img/spotify-carthing.jpg" alt="Spotify Car Thing Device" class="project-imgs" /> 
+        </a>
+      </div>
+
+      <div class="row__text">
+        <h3>Spotify Carthing.</h3>
+        <time>2023-06-01</time>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Aliquam faucibus purus in massa tempor nec. At ultrices mi tempus imperdiet nulla malesuada
+          pellentesque elit.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row__img">
+        <a href="https://www.leshed.ch/" target="_blank">
+          <img src="img/shed.png" alt="Shed Restaurants Website" class="project-imgs" />
+        </a>
+      </div>
+            
+      <div class="row__text">
+        <h3>Shed. Restaurants.</h3>
+        <time>2022-10-01</time>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Aliquam faucibus purus in massa tempor nec. At ultrices mi tempus imperdiet nulla malesuada
+          pellentesque elit.
+        </p>
+      </div>
+    </div>
+
+    <h2>Skills.</h2>
+    <div class="row">
+      <div class="row__full" id="skills">
+        <figure>
+          <img src="img/html5.png" alt="html5 logo icon" />
+        </figure>
+  
+        <figure>
+          <img src="img/css3.png" alt="css3 logo icon">
+        </figure>
+  
+        <figure>
+          <img src="img/javascript.png" alt="JavaScript logo icon">
+        </figure>
+      </div>
+    </div>
+
+    <h2 id="about">About.</h2>
+    <div class="row">
+      <div class="row__img">            
+        <img src="img/nathalie-p.jpg" alt="Picture of Nathalie" id="img__profile" />     
+      </div>
+
+      <div class="row__text">
+        <h3>Who am I?</h3>
+        <p>
+          Frontend developer student with a passion for Technology and Design.<br><br>
+          Born in Sweden and based in Switzerland.<br><br>
+          Developing attractive user-friendly webpages and applications. Have a particular interest for innovative technology and always stay up to date on advancements.<br><br>
+          Previously worked in the Restaurant Industry where I have used my skills of leadership, team oriented-work, organizational skills, customer service, handling pressure and problem-solving.
+        </p>
+      </div>
+    </div>
+        
+    <h2 id="contact">Contact.</h2>
+    <div class="row">
+      <div class="row__img" id="contact-box">
+        <address>
+          <a href="mailto:nathalie.persson@hotmail.com" id="mail">
+            nathalie.persson <br>
+            @hotmail.com
+          </a>
+              
+          <hr class="divider">
+          
+          <a href="tel:+41766194431">
+            0766194431
+          </a>        
+        </address>
+      </div>
+
+      <div class="row__text">
+        <h3>Get in touch.</h3>
+        <form action="" method="get" class="contact-form">  
+        
+          <label for="name">Name:</label> <br>
+          <input type="text" name="name" id="name" required placeholder="Jane Doe">
+
+          <label for="email">Email:</label> <br>
+          <input type="email" name="email" id="email" required placeholder="jandoe@mail.com">
+
+          <label for="message">Message:</label> <br>
+          <textarea name="message" id="message" placeholder="Write me a message..."></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+    </div>
+
+  </div>  
+    
+  <footer>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/nathalie-persson-enriquez/" target="_blank">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/NathalieJaneP" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://codepen.io/nathaliejanep" target="_blank">
+          <i class="fab fa-codepen" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/nathaliejanep/" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
